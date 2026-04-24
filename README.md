@@ -7,7 +7,7 @@ Packet capture is done in C (libpcap); audio runs entirely in your browser via t
 
 ### Requirements
 - macOS with Python 3 installed (`python3 --version` to check)
-- Xcode Command Line Tools: `xcode-select --install`
+
 
 ### Steps
 

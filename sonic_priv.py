@@ -10,6 +10,7 @@ Uses the same mechanism as Wireshark (ChmodBPF / access_bpf group):
 After this one-time setup the packet_processor binary runs as a normal user
 with no sudo, no setuid bit, and no password prompts.
 
+
 Why not chown/chmod u+s?  macOS Sequoia (15.x) refuses 'chown root:wheel'
 even through osascript administrator privileges for files in ~/Desktop.
 BPF device permissions are not subject to that restriction.

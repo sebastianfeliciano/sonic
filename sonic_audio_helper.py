@@ -12,6 +12,7 @@ Sonic audio helper — high-quality polyphonic pad synthesizer.
   ✦ RMS compressor on master bus — volume breathes naturally with traffic
   ✦ Soft-clip (tanh) output limiter
 """
+
 import sys
 import threading
 import time

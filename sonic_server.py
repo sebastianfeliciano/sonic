@@ -10,6 +10,7 @@ no sounddevice, no local audio setup needed.
 """
 from __future__ import annotations
 
+
 import collections
 import os
 import random
